@@ -5,7 +5,19 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    screens:{
+      'sm':'0px', 
+      'md':'700px',
+      'lg':'1024px'
+    },
+    extend: {
+      fontFamily:{
+        Lato:['Lato', 'sans-serif'],
+        montserrat:['montserrat', 'sans-serif'],
+        Poppins:['Poppins', 'sans-serif'],
+        Quicksand:['Quicksand', 'sans-serif']
+      }
+    },
   },
   plugins: [],
 }
